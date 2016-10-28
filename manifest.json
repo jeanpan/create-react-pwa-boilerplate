@@ -1,0 +1,13 @@
+{
+  "short_name": "create-react-pwa-boilerplate",
+  "name": "Create React PWA",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone"
+}
