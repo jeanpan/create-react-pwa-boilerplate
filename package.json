@@ -1,0 +1,22 @@
+{
+  "name": "create-react-pwa-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^0.11.0",
+    "react-scripts": "0.7.0",
+    "sw-precache": "^4.2.1"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && sw-precache --navigate-fallback='index.html' --root='build/' --static-file-globs='build/**/!(*map*)'",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://jeanpan.github.io/create-react-pwa-boilerplate"
+}
