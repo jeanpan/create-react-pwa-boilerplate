@@ -1,3 +1,9 @@
+## create-react-pwa-boilerplate
+
+A boilerplate for [`Progressive Web Apps (PWA)`](https://developers.google.com/web/progressive-web-apps/) created with the [`create-react-app`](https://github.com/facebookincubator/create-react-app). 
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
